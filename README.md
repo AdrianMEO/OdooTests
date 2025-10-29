@@ -17,10 +17,10 @@
 3. **Configuración de la base de datos PostgreSQL**  
   En Render creo un PostgreSQL gratuito en Add New > Postgres.  
   Una vez creado, Render me proporciona las variables de conexión:  
-  HOST  
-  USER  
-  PASSWORD  
-  DB_NAME  
+  - HOST  
+  - USER  
+  - PASSWORD  
+  - DB_NAME  
   Copio estas variables y las añado en el apartado de Environment Variables del servicio principal de Odoo en Render, para que la aplicación pueda conectarse correctamente a la base de datos.  
 4. **Despliegue y comprobación**  
   Render instala automáticamente las dependencias y ejecuta el despliegue del servicio.  
